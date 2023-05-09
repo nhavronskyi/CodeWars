@@ -1,22 +1,11 @@
 package codewars.six;
 
+import java.util.Arrays;
+
 // Find The Parity Outlier: https://www.codewars.com/kata/5526fc09a1bbd946250002dc/train/java
 public class FindOutlier {
     public static int find(int[] integers){
-        int even = 0;
-        int lastEven = 0;
-        int odd = 0;
-        int lastOdd = 0;
-        for (int i = 0; i < integers.length; i++) {
-            if(integers[i] % 2 == 0) {
-                even++;
-                lastEven = integers[i];
-            }
-            else {
-                odd++;
-                lastOdd = integers[i];
-            }
-        }
-        return even > odd ? lastOdd : lastEven;
+        int[] ints = Arrays.stream(integers).filter(x -> x% 2 == 0).toArray();
+        return ints.length == 1 ? ints[0] : Arrays.stream(integers).filter(x -> x % 2 != 0).findFirst().getAsInt();
     }
 }
