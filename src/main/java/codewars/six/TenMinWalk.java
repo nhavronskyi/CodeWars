@@ -13,6 +13,6 @@ public class TenMinWalk {
             else if (c == 'w') back--;
         }
 
-        return strait == back;
+        return strait == 0 && back == 0;
     }
 }
