@@ -5,8 +5,9 @@ import java.util.stream.Stream;
 
 public class CountingDuplicates {
     public static int duplicateCount(String text) {
-        return Stream.of(text.split(""))
-                .filter(s -> text.indexOf(s) != text.lastIndexOf(s))
+        var t = text.toUpperCase();
+        return Stream.of(t.split(""))
+                .filter(s -> t.indexOf(s) != t.lastIndexOf(s))
                 .collect(Collectors.toSet())
                 .size();
     }
