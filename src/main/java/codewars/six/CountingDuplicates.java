@@ -6,9 +6,7 @@ import java.util.stream.Stream;
 public class CountingDuplicates {
     public static int duplicateCount(String text) {
         return Stream.of(text.split(""))
-                .filter(s -> Stream.of(text.split(""))
-                        .filter(x -> x.equals(s))
-                        .count() > 1)
+                .filter(s -> text.indexOf(s) != text.lastIndexOf(s))
                 .collect(Collectors.toSet())
                 .size();
     }
