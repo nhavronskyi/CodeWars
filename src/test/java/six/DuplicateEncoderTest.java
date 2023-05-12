@@ -1,8 +1,9 @@
 package six;
 
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
 import codewars.six.DuplicateEncoder;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 
 public class DuplicateEncoderTest {
@@ -10,6 +11,6 @@ public class DuplicateEncoderTest {
     public void test() {
         assertEquals(")()())()(()()(",
                 DuplicateEncoder.encode("Prespecialized"));
-        assertEquals("))))())))",DuplicateEncoder.encode("   ()(   "));
+        assertEquals("))))())))", DuplicateEncoder.encode("   ()(   "));
     }
 }

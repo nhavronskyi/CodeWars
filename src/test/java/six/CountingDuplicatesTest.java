@@ -1,8 +1,9 @@
 package six;
+
 import codewars.six.CountingDuplicates;
 import org.junit.Test;
+
 import static org.junit.Assert.assertEquals;
-import org.junit.runners.JUnit4;
 
 public class CountingDuplicatesTest {
     @Test
