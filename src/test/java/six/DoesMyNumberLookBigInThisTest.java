@@ -14,7 +14,7 @@ public class DoesMyNumberLookBigInThisTest {
     }
 
     @Test
-    void falseTest(){
+    void falseTest() {
         Assertions.assertFalse(DoesMyNumberLookBigInThis.isNarcissistic(112));
     }
 }
