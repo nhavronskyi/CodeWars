@@ -14,7 +14,7 @@ public class RGBToHexConversion {
         }
 
         var s = convertToHex(num);
-        return s.length() == 1? 0 + s : s;
+        return s.length() == 1 ? 0 + s : s;
     }
 
     private static String convertToHex(int num) {
