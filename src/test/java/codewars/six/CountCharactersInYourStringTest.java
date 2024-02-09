@@ -1,6 +1,5 @@
-package six;
+package codewars.six;
 
-import codewars.six.CountCharactersInYourString;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 

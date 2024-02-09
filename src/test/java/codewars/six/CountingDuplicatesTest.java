@@ -1,6 +1,5 @@
-package six;
+package codewars.six;
 
-import codewars.six.CountingDuplicates;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

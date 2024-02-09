@@ -1,6 +1,5 @@
-package six;
+package codewars.six;
 
-import codewars.six.RectangleIntoSquares;
 import org.junit.Test;
 
 import java.util.Arrays;
