@@ -1,4 +1,4 @@
-package seven;
+package codewars.seven;
 
 import org.junit.jupiter.api.Test;
 

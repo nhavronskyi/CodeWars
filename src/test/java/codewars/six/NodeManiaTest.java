@@ -1,6 +1,5 @@
-package six;
+package codewars.six;
 
-import codewars.six.NodeMania;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

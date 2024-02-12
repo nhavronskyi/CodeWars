@@ -1,6 +1,5 @@
-package seven;
+package codewars.seven;
 
-import codewars.seven.OutOfSpace;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Order;

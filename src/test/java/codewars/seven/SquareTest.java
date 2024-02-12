@@ -1,6 +1,5 @@
-package seven;
+package codewars.seven;
 
-import codewars.seven.YoureASquare;
 import org.junit.Test;
 
 import static org.junit.Assert.assertFalse;
@@ -8,7 +7,7 @@ import static org.junit.Assert.assertTrue;
 
 public class SquareTest {
     @Test
-    public void shouldWorkForSomeExamples() throws Exception {
+    public void shouldWorkForSomeExamples() {
         assertFalse("negative numbers aren't square numbers", YoureASquare.Square.isSquare(-1));
         assertTrue("0 is a square number (0 * 0)", YoureASquare.Square.isSquare(0));
         assertFalse("3 isn't a square number", YoureASquare.Square.isSquare(3));

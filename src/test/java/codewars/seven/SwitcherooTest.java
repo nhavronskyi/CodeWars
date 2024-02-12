@@ -1,6 +1,5 @@
-package seven;
+package codewars.seven;
 
-import codewars.seven.Switcheroo;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

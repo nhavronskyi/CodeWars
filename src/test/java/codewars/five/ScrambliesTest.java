@@ -1,6 +1,5 @@
-package five;
+package codewars.five;
 
-import codewars.five.Scrambles;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 
