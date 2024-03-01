@@ -19,4 +19,8 @@ public class FilterTheNumber {
             return false;
         }
     }
+
+    public static long filterString2(String value) {
+        return Long.parseLong(value.replaceAll("[a-z]", ""));
+    }
 }

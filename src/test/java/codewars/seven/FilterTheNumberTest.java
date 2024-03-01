@@ -16,6 +16,12 @@ class FilterTheNumberTest {
         Assertions.assertEquals(exp, FilterTheNumber.filterString(act));
     }
 
+    @ParameterizedTest
+    @MethodSource("args")
+    public void exampleTests2(int exp, String act) {
+        Assertions.assertEquals(exp, FilterTheNumber.filterString2(act));
+    }
+
     Stream<Arguments> args() {
         return Stream.of(
                 Arguments.arguments(123, "123"),
