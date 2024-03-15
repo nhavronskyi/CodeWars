@@ -18,7 +18,7 @@ class ConsonantValueTest {
     }
 
     @Test
-    void Test(){
+    void Test() {
         Assertions.assertEquals(26, ConsonantValue.solve("z"));
         Assertions.assertEquals(2, ConsonantValue.solve("b"));
     }
