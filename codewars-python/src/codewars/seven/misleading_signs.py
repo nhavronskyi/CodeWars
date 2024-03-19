@@ -2,7 +2,10 @@ def gaslighting(shirt_word: str, your_word: str, friends_letters: str) -> bool:
     if shirt_word == your_word:
         return False
 
-    shirt_word = shirt_word.replace(friends_letters, "")
-    your_word = your_word.replace(friends_letters, "")
+    for i, c in enumerate(shirt_word):  # enumerate(shirt_word) == range(len(shirt_word))
+        if shirt_word[i] == your_word[i]:
+            continue
+        elif c in friends_letters or your_word[i] in friends_letters:
+            return True
 
-    return shirt_word == your_word or len(shirt_word) != len(your_word)
+    return False
