@@ -1,6 +1,6 @@
 import unittest
 
-from src.codewars.seven.Incrementer import incrementer
+from src.codewars.seven.incrementer import incrementer
 
 
 class TestIncrementer(unittest.TestCase):
