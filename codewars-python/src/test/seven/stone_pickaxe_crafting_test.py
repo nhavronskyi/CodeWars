@@ -1,6 +1,6 @@
 import unittest
 
-from src.codewars.seven.stone_pickaxe_crafting import stone_pick
+from src.seven.stone_pickaxe_crafting import stone_pick
 
 
 class StonePickTests(unittest.TestCase):

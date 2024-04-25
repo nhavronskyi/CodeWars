@@ -1,6 +1,6 @@
 import unittest
 
-from src.codewars.seven.greatest_common_divisor import my_gcd
+from src.seven.greatest_common_divisor import my_gcd
 
 
 class TestMyGCD(unittest.TestCase):

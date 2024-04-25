@@ -1,6 +1,6 @@
 import unittest
 
-from src.codewars.seven.product_of_maximums_of_array import max_product
+from src.seven.product_of_maximums_of_array import max_product
 
 
 class TestMaxProduct(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from src.codewars.seven.cat_years_dog_years import owned_cat_and_dog
+from src.seven.cat_years_dog_years import owned_cat_and_dog
 
 
 class TestOwnedCatAndDog(unittest.TestCase):

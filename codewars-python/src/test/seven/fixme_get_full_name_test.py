@@ -1,6 +1,6 @@
 import unittest
 
-from src.codewars.seven.fixme_get_full_name import Dinglemouse
+from src.seven.fixme_get_full_name import Dinglemouse
 
 
 class TestDinglemouse(unittest.TestCase):

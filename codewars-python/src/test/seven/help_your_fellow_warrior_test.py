@@ -1,6 +1,6 @@
 import unittest
 
-from src.codewars.seven.help_your_fellow_warrior import get_honor_path
+from src.seven.help_your_fellow_warrior import get_honor_path
 
 
 class TestGetHonorPath(unittest.TestCase):

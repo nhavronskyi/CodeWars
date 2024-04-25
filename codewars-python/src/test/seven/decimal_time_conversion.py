@@ -1,5 +1,5 @@
 import unittest
-import src.codewars.seven.decimal_time_conversion as task
+import src.seven.decimal_time_conversion as task
 
 
 class TestToIndustrial(unittest.TestCase):

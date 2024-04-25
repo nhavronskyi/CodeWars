@@ -1,6 +1,6 @@
 import unittest
 
-from src.codewars.seven.debug_sum_of_digits_of_a_number import get_sum_of_digits
+from src.seven.debug_sum_of_digits_of_a_number import get_sum_of_digits
 
 
 class TestGetSumOfDigits(unittest.TestCase):

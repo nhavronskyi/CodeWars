@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from src.codewars.seven.digits_explosion import digits_explosion
+from src.seven.digits_explosion import digits_explosion
 
 sample_test_cases = [
     # (input, expected),

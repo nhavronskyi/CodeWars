@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-import src.codewars.seven.find_the_middle_element as task
+import src.seven.find_the_middle_element as task
 
 
 class MyTestCase(TestCase):

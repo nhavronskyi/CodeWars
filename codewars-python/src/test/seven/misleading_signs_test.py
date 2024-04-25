@@ -1,6 +1,6 @@
 import unittest
 
-from src.codewars.seven.misleading_signs import gaslighting
+from src.seven.misleading_signs import gaslighting
 
 
 class TestGaslighting(unittest.TestCase):
